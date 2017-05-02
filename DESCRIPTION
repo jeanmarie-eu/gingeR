@@ -1,0 +1,23 @@
+Package: gingeR
+Type: Package
+Version: 0.0.1
+Authors@R: person("Jean-Marie", "Lepioufle", , "jm@nexmodeling.com", c("aut","cre"),
+           person("nexModeling", role = "cph"))
+Title: gingeR
+Description: Get large datasets from remote servers
+  The package focuses on getting large datasets from different remote servers.
+  The package is an holding package of sugaR, puddingR and limonade.
+Depends:
+    R (>= 3.2.5)
+Imports:
+   puddingR,
+   sugaR,
+   limonade
+Remotes:
+    local::C:/Users/jm/Google Drive/dev/R/Rlibraries_jellify/puddingR,
+    local::C:/Users/jm/Google Drive/dev/R/Rlibraries_jellify/sugaR,
+    local::C:/Users/jm/Google Drive/dev/R/Rlibraries_limonade/limonade
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 5.0.1
