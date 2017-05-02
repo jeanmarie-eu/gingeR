@@ -1,18 +1,18 @@
-# puddingR
+# gingeR
 
 [![Travis-CI Build Status](https://travis-ci.org/jeanmarielepioufle/timeManip.svg?branch=master)](https://travis-ci.org/jeanmarielepioufle/puddingR)
 
-puddingR focuses on getting data from remote service.
+Get datasets from remote servers
 
-This is an interface for curl.
+The package focuses on getting large datasets from different remote servers.
 
-Output is raw data.
+The package is an holding package of sugaR, puddingR and limonade.
 
 ## Installation
 
 ```R
 # install.packages("devtools")
-devtools::install_github("jeanmarielepioufle/puddingR")
+devtools::install_github("jeanmarielepioufle/gingeR")
 ```
 
 ## Usage
